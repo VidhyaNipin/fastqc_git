@@ -121,7 +121,7 @@ class PreProcessing(object):
         plt.ylabel('Average Quality Score')
         # plt.savefig('avg_' + filename + ".pdf")
         plt.savefig('avg1_p1r1.pdf')
-        plt.show()
+        # plt.show()
         plt.clf()  #to clear plot variable
 
     def unzip(self):
